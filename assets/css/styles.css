@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Barlow|Fjalla+One|Karla|Maven+Pro|Poiret+One|Raleway&display=swap');
+
+body,html{ 
+  height: 100%;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #c46a15;
+}
+
+title{
+    display: none;
+}
+
+/*navigation*/
+
+header {
+    margin: none;
+    background-color: transparent;
+    height: 40px;
+}
+
+.active {
+  background-color: #c46a15;
+}
+
+a {
+    color: #c46a15;
+    background-color: transparent;
+    text-decoration: none;  
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ddd;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+ul li {
+    display: contents;
+}
+
+ul li a {
+    color: #c46a15;
+    padding: 1px 10px;
+    border: none;
+    transition: 0.6s ease;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    background-color: transparent;
+    color: #c46a15;
+}
+
+nav {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+
+/*images*/
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-left: 400px;
+    margin-right: 200px;
+    max-width: 100%;
+    border: none;
+    padding: 5px 0;
+    mix-blend-mode: multiply;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url(../images/john.jovic.4.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(../images/boyd_1.jpg);
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image: url(../images/john.jovic.5.jpg);
+    min-height: 100%;
+}
+
+.pimg4{
+    background-image: url(../images/john.jovic.9.jpg);
+    min-height: 100%;
+}
+
+.pimg5{
+    background-image: url(../images/jj_12.jpg);
+    min-height: 100%;
+}
+
+/*typography*/
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #c46a15;
+    font-feature-settings: normal;
+    font-size: 2rem;
+    backface-visibility: visible;
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin: 20px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    color: antiquewhite;
+    font-feature-settings: normal;
+    font-size: 1.8rem;
+    margin: 20px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    margin: 20px;
+    color: #dbc7af;
+}
+
+h4 {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+    margin: 20px;
+    color: #c46a15;
+}
+
+h5 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.4rem;
+    margin: 20px;
+}
+
+h6 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 2em;
+    margin-bottom: 32px;
+    margin: 20px;
+    letter-spacing: 3px;
+    color: #7c7c7c;
+}
+
+
+/*section styles*/
+
+.section{
+    text-align: center;
+    padding: 90px 80px;
+    background-color: antiquewhite;
+    color: #7c7c7c7c;
+    border-bottom: 120px;
+    border-top: 120px;
+    border-top: 120px;
+}
+
+/* content styles */
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #c46a15;
+    font-size: 32px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    line-height: 2em;
+    margin-bottom: 32px;
+    
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #c46a15;
+    padding: 20px;    
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+    color: #c46a15;
+    text-emphasis-color: #c46a15;
+}
+
+footer{
+    margin: auto;
+    background-color: #fff;
+    height: 50px;
+    color: #dbc7af;
+    align-content: center;
+}
+
+
+
+/*responsive*/
+@media(max-width:560px){
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+        background-attachment: scroll;
+    }
+
