@@ -79,12 +79,10 @@ nav ul li a:hover {
 
 .logo {
     display: block;
-    margin: 0 auto;
-    margin-left: 400px;
-    margin-right: 200px;
-    max-width: 100%;
-    border: none;
-    padding: 5px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 80%;
     mix-blend-mode: multiply;
 }
 
@@ -177,7 +175,8 @@ p{
     font-size: 18px;
     line-height: 2em;
     margin-bottom: 32px;
-    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     letter-spacing: 3px;
     color: #7c7c7c;
 }
@@ -193,6 +192,14 @@ p{
     border-bottom: 120px;
     border-top: 120px;
     border-top: 120px;
+}
+
+.caption2{
+    font-size: 10px;
+    float: right;
+    color: #c46a15;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 /* content styles */
